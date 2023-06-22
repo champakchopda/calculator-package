@@ -1,0 +1,27 @@
+{
+    "name": "monocubed/calc",
+    "description": "Diffrent calculation function",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Monocubed\\Calc\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "champak",
+            "email": "champak@7span.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": false,
+    "require": {},
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Monocubed\\Calc\\CalcServiceProvider"
+          ]
+        }
+      }
+}
