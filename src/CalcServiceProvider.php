@@ -11,7 +11,7 @@ class CalcServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->make('monocubed\calc\CalcController');
+       
         $this->app->bind('Calc', function() {
             return new Calc();
         });

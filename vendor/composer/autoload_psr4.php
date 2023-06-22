@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Monocubed\\Calc\\' => array($baseDir . '/packages/monocubed/calc/src'),
+    'Monocubed\\Calc\\' => array($baseDir . '/src'),
+    'App\\' => array($baseDir . '/app'),
 );

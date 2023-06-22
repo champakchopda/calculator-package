@@ -11,12 +11,20 @@ class ComposerStaticInit7ff573b131505ae13e8ae8239065e051
         array (
             'Monocubed\\Calc\\' => 15,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Monocubed\\Calc\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/packages/monocubed/calc/src',
+            0 => __DIR__ . '/../..' . '/src',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 
